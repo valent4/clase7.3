@@ -12,7 +12,7 @@ La **Fórmula 1** es la categoría más alta de automovilismo a nivel mundial. E
 
 # Mostrar la imagen del logo de Fórmula 1 (archivo local)
 st.subheader("Logo de la Fórmula 1")
-image_logo = Image.open("logof1.jpg")  # Asegúrate de tener esta imagen en el directorio
+image_logo = Image.open("logof1.png")  # Asegúrate de tener esta imagen en el directorio
 st.image(image_logo, caption="Logo oficial de la Fórmula 1", width=400)
 
 # Sección 2: ¿Cómo funciona la Fórmula 1?
