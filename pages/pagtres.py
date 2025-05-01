@@ -12,7 +12,7 @@ Los pilotos deben tener una **licencia de superpiloto** otorgada por la FIA y de
 
 # Imagen general de pilotos
 st.subheader("Pilotos en la parrilla")
-image_pilotos = Image.open("parrila.jpg")  # reemplázala con tu imagen
+image_pilotos = Image.open("parrilla.jpg")  # reemplázala con tu imagen
 st.image(image_pilotos, caption="Pilotos actuales de la Fórmula 1", use_container_width=True)
 
 st.header("Pilotos actuales destacados")
