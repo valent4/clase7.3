@@ -12,7 +12,7 @@ Los pilotos deben tener una **licencia de superpiloto** otorgada por la FIA y de
 
 # Imagen general de pilotos
 st.subheader("Pilotos en la parrilla")
-image_pilotos = Image.open("imagenpilotosactuales.jpg")  # reemplázala con tu imagen
+image_pilotos = Image.open("parrila.jpg")  # reemplázala con tu imagen
 st.image(image_pilotos, caption="Pilotos actuales de la Fórmula 1", use_container_width=True)
 
 st.header("Pilotos actuales destacados")
@@ -27,7 +27,7 @@ Algunos de los pilotos más destacados en la actual parrilla son:
 
 # Imagen de Max Verstappen
 st.subheader("Max Verstappen")
-image_verstappen = Image.open("imagenverstappen.jpg")
+image_verstappen = Image.open("verstappen.jpg")
 st.image(image_verstappen, caption="Max Verstappen en acción", use_container_width=True)
 
 st.header("Pilotos legendarios de la historia")
@@ -41,7 +41,7 @@ A lo largo de los años, la Fórmula 1 ha visto pilotos legendarios que marcaron
 
 # Imagen de Senna
 st.subheader("Ayrton Senna")
-image_senna = Image.open("imagensenna.jpg")
+image_senna = Image.open("Senna.jpg")
 st.image(image_senna, caption="Ayrton Senna, una leyenda de la F1", use_container_width=True)
 
 st.markdown("---")
