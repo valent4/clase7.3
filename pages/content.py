@@ -32,7 +32,7 @@ st.subheader("Scuderia Ferrari")
 st.write("""
 El equipo más icónico y antiguo de la F1. Con sede en Italia, Ferrari es conocido por su característico color rojo y su historia llena de gloria y pasión.
 """)
-imagen_ferrari = Image.open("imagenferrari.jpg")
+imagen_ferrari = Image.open("ferrari.jpg")
 st.image(imagen_ferrari, caption="ferrari", use_container_width=True)
 
 # Mercedes
@@ -40,7 +40,7 @@ st.subheader("Mercedes-AMG Petronas")
 st.write("""
 Mercedes dominó la F1 durante la era híbrida con múltiples campeonatos consecutivos. Su auto es reconocido por su color plateado con detalles en verde agua.
 """)
-imagen_mercedes = Image.open("imagenmercedes.jpg")
+imagen_mercedes = Image.open("Mercedes.jpg")
 st.image(imagen_mercedes, caption="Mercedes", use_container_width=True)
 
 # McLaren
@@ -48,7 +48,7 @@ st.subheader("McLaren")
 st.write("""
 Uno de los equipos más históricos, McLaren ha regresado con fuerza en temporadas recientes. Su color papaya es distintivo en la pista.
 """)
-imagen_mclaren = Image.open("imagenmclaren.jpg")
+imagen_mclaren = Image.open("mclaren.jpg")
 st.image(imagen_mclaren, caption="mclaren", use_container_width=True)
 
 st.markdown("---")
