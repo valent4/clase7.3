@@ -24,7 +24,7 @@ st.write("""
 Dominante en los últimos años, Red Bull es conocido por su diseño aerodinámico innovador y su agresiva estrategia de carrera. 
 Sus colores son el azul oscuro con detalles en rojo y amarillo.
 """)
-imagen_redbull = Image.open("imagenredbull.jpg")
+imagen_redbull = Image.open("redbull.jpg")
 st.image(imagen_redbull, caption="redbull", use_container_width=True)
 
 # Ferrari
